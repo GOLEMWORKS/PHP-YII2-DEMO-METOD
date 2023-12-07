@@ -5,17 +5,17 @@
     <h1 align="center">Yii 2 Basic Project Template</h1>
     <br>
 </p>
-
-<code>
-CREATE TABLE `nnet`.`user` (`id` INT NOT NULL AUTO_INCREMENT , 
-    `login` VARCHAR(255) NOT NULL , 
-    `password` VARCHAR(255) NOT NULL , 
-    `fio` VARCHAR(255) NOT NULL , 
-    `phone` VARCHAR(255) NOT NULL , 
-    `email` VARCHAR(255) NOT NULL , 
-    PRIMARY KEY (`id`)) ENGINE = InnoDB; 
-</code>
-
+<pre>
+    <code>
+        CREATE TABLE `nnet`.`user` (`id` INT NOT NULL AUTO_INCREMENT , 
+        `login` VARCHAR(255) NOT NULL , 
+        `password` VARCHAR(255) NOT NULL , 
+        `fio` VARCHAR(255) NOT NULL , 
+        `phone` VARCHAR(255) NOT NULL , 
+        `email` VARCHAR(255) NOT NULL , 
+        PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+    </code>
+</pre>
 Yii 2 Basic Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
