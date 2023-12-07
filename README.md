@@ -35,3 +35,5 @@
     </code>
 </pre>
 <br>
+![Внешний вид БД в дизайнере](https://github.com/GOLEMWORKS/PHP-YII2-DEMO-METOD/assets/97763002/34005096-9347-4d96-85ac-516935641a98)
+
