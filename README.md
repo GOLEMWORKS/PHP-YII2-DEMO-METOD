@@ -1,6 +1,7 @@
 <h1 align="center">Подготовка к работе перед копированием репозитория</h1>
 
 
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
@@ -8,6 +9,9 @@
     <h1 align="center">За основу взят Yii 2 Basic Project Template</h1>
     <br>
 </p>
+Скачиваем Yii Basic Template <a href="https://github.com/yiisoft/yii2/releases/download/2.0.49/yii-basic-app-2.0.49.tgz"><span>Тык</span></a>, после чего в разархивированную папку basic копируем с заменой содержимое репозитория.
+Скачивание кода репозитория выглядит вот так (Нажимаем кнопочку Download ZIP):
+<img src="https://github.com/GOLEMWORKS/PHP-YII2-DEMO-METOD/assets/97763002/5838fbca-bc5e-4a96-81e5-80e0e66efe78"></img>
 <pre>
     <code>
         CREATE TABLE `nnet`.`user` 
