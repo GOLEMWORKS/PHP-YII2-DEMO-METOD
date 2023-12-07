@@ -1,3 +1,6 @@
+<h1>Подготовка к работе перед копированием репозитория</h1>
+
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
@@ -35,6 +38,6 @@
     </code>
 </pre>
 <br>
-<img src="https://github.com/GOLEMWORKS/PHP-YII2-DEMO-METOD/assets/97763002/34005096-9347-4d96-85ac-516935641a98" alt="Внешний вид БД в дизайнере">
+<img align="center" src="https://github.com/GOLEMWORKS/PHP-YII2-DEMO-METOD/assets/97763002/34005096-9347-4d96-85ac-516935641a98" alt="Внешний вид БД в дизайнере">
 ![Внешний вид БД в дизайнере](https://github.com/GOLEMWORKS/PHP-YII2-DEMO-METOD/assets/97763002/34005096-9347-4d96-85ac-516935641a98)
 
