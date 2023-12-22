@@ -5,7 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\User;
 use app\models\Regform;
-use app\models\UserSearch;
+use app\models\ZayaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -40,7 +40,7 @@ class LkController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new UserSearch();
+        $searchModel = new ZayaSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
