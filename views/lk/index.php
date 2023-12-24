@@ -36,6 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'status',
             [
                 'class' => ActionColumn::className(),
+                'template' => '{view}',
                 'urlCreator' => function ($action, Zaya $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
                  }

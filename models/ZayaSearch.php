@@ -68,4 +68,36 @@ class ZayaSearch extends Zaya
 
         return $dataProvider;
     }
+
+    public function searchForUser($params, $iduser)
+    {
+        $query = Zaya::find();
+
+        // add conditions that should always apply here
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+        ]);
+
+        $this->load($params);
+
+        if (!$this->validate()) {
+            // uncomment the following line if you do not want to return any records when validation fails
+            // $query->where('0=1');
+            return $dataProvider;
+        }
+
+        $query->andWhere(['id_user'=>$iduser]);
+
+        // grid filtering conditions
+        $query->andFilterWhere([
+            // 'id' => $this->id,
+        ]);
+
+        $query->andFilterWhere(['like', 'number_auto', $this->number_auto])
+            ->andFilterWhere(['like', 'comment', $this->comment])
+            ->andFilterWhere(['like', 'status', $this->status]);
+
+        return $dataProvider;
+    }
 }

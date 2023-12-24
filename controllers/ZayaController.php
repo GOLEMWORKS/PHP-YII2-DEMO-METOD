@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\Zaya;
 use app\models\ZayaSearch;
+use app\models\Status;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
